@@ -5,8 +5,12 @@
   "main": "app.js",
   "dependencies": {
     "dateformat": "^2.0.0",
+    "iconv-lite": "^0.4.17",
     "jsonfile": "^3.0.0",
-    "rss-parser": "^2.7.0"
+    "lodash": "^4.17.4",
+    "rss-parser": "^2.7.0",
+    "scrapyard": "^0.1.1",
+    "simple-git": "^1.72.0"
   },
   "devDependencies": {},
   "scripts": {
