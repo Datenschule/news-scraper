@@ -1,0 +1,12 @@
+{
+  "repo": "<data_repository_url>",
+  "path": "<path to data directory>",
+  "branch": "<branch name>",
+  "feeds": [
+    {
+      "name": "spiegel_online",
+      "feed": "http://www.spiegel.de/politik/index.rss",
+      "type": "spon"
+    }
+  ]
+}
