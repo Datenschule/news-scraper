@@ -5,7 +5,7 @@ let scraper = new scrapyard({
     retries: 5,
     connections: 1,
     cache: './storage',
-    bestbefore: "400min"
+    bestbefore: "30min"
 });
 
 function clean_content(content) {
