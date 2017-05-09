@@ -146,7 +146,6 @@ function writeGit(result) {
         let writePromises = [];
 
         console.log('write to git folder');
-        console.log(result);
         var provider = _.groupBy(result, 'provider_name');
         Object.keys(provider).forEach(function(provider_name) {
             var current = provider[provider_name];
